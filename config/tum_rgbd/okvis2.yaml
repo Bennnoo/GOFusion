@@ -1,0 +1,152 @@
+%YAML:1.0
+# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+# SPDX-License-Identifier: BSD-3-Clause
+
+mapping_input_parameters:
+    enabled: false
+cameras:
+     - {T_SC:
+        [1.0000, 0.0000, 0.0000, 0.0000,
+         0.0000, 1.0000, 0.0000, 0.0000,
+         0.0000, 0.0000, 1.0000, 0.0000,
+         0.0000, 0.0000, 0.0000, 1.0000 ],
+        image_dimension: [640, 480],
+        distortion_coefficients: [0.0, 0.0, 0.0, 0.0],
+        distortion_type: radialtangential,
+        focal_length: [517.3, 516.5],
+        principal_point: [318.6, 255.3],
+        cam_model: pinhole,
+        camera_type: gray,
+        mapping: false,
+        slam_use: okvis}
+
+     - {T_SC:
+        [1.0000, 0.0000, 0.0000, 0.0000,
+         0.0000, 1.0000, 0.0000, 0.0000,
+         0.0000, 0.0000, 1.0000, 0.0000,
+         0.0000, 0.0000, 0.0000, 1.0000 ],
+        image_dimension: [640, 480],
+        distortion_coefficients: [0.0, 0.0, 0.0, 0.0],
+        distortion_type: radialtangential,
+        focal_length: [517.3, 516.5],
+        principal_point: [318.6, 255.3],
+        cam_model: pinhole,
+        camera_type: gray,
+        mapping: false,
+        slam_use: okvis}
+
+     - {T_SC:
+        [1.0000, 0.0000, 0.0000, 0.0000,
+         0.0000, 1.0000, 0.0000, 0.0000,
+         0.0000, 0.0000, 1.0000, 0.0000,
+         0.0000, 0.0000, 0.0000, 1.0000 ],
+        image_dimension: [640, 480],
+        distortion_coefficients: [0.0, 0.0, 0.0, 0.0],
+        distortion_type: radialtangential,
+        focal_length: [517.3, 516.5],
+        principal_point: [318.6, 255.3],
+        cam_model: pinhole,
+        camera_type: rgb+depth,
+        mapping: true,
+        slam_use: none}
+
+camera_parameters:
+    timestamp_tolerance: 0.005
+    image_delay: 0.0
+    sync_cameras: [0, 1]
+    online_calibration:
+        do_extrinsics: false
+        do_extrinsics_final_ba: false
+        sigma_r: 0.001
+        sigma_alpha: 0.01
+        sigma_r_final_ba: 0.003
+        sigma_alpha_final_ba: 0.016
+
+imu_parameters:
+    use: false
+    a_max: 160.0
+    g_max: 10.0
+    sigma_g_c: 0.00278
+    sigma_bg: 0.03
+    sigma_a_c: 0.0252
+    sigma_ba: 0.01
+    sigma_gw_c: 0.0008
+    sigma_aw_c: 0.04
+    a0: [-0.02,  0.1,  0.1]
+    g0: [-0.05, -0.005, 0.005]
+    g: 9.81007
+    s_a: [ 1.0,  1.0, 1.0 ]
+    T_BS:
+        [1.0000, 0.0000, 0.0000, 0.0000,
+         0.0000, 1.0000, 0.0000, 0.0000,
+         0.0000, 0.0000, 1.0000, 0.0000,
+         0.0000, 0.0000, 0.0000, 1.0000]
+
+frontend_parameters:
+    # Spatial downsampling applied only to OKVIS visual tracking images.
+    # 1: disabled; 2: half width/height; 3: one third; ...
+    tracking_image_resolution_downsampling: 1
+    detection_threshold: 46.0
+    absolute_threshold: 5.0
+    matching_threshold: 60.0
+    octaves: 0
+    max_num_keypoints: 600
+    keyframe_overlap: 0.55
+    parallelise_detection: true
+    num_matching_threads: 6
+
+estimator_parameters:
+    num_keyframes: 4
+    num_loop_closure_frames: 3
+    num_imu_frames: 3
+    do_loop_closures: true
+    do_final_ba: true
+    enforce_realtime: true
+    realtime_min_iterations: 2
+    realtime_max_iterations: 6
+    realtime_time_limit: 0.03
+    realtime_num_threads: 5
+    full_graph_iterations: 15
+    full_graph_num_threads: 1
+    p_dbow: 0.4
+    drift_percentage_heuristic: 1.35
+
+output_parameters:
+    display_topview: false
+    display_matches: false
+    display_overhead: false
+    enable_submapping: true
+
+gs_mapping_parameters:
+    depth_stream: depth0
+    rgb_stream: rgb0
+    save_rendered_rgb: true
+    rendered_rgb_directory: ""
+    densify:
+        enabled: true
+        interval: 20
+        tile_size: 8
+        top_tiles_ratio: 0.5
+        top_peaks_ratio: 0.5
+        max_new_gaussians: 10240
+        init_scale_mul: 0.5
+        init_z_scale: 5e-6
+        split_size_ratio: 1.5
+        split_factor: 2
+        split_scale_shrink: 0.7
+
+visualization_parameters:
+    enable_occupancy_viewer: true
+    occupancy_viewer_update_interval: 5
+    occupancy_viewer_max_fps: 15
+    occupancy_viewer_voxel_stride: 1
+    occupancy_viewer_max_points: 400000
+    occupancy_viewer_occupied_point_size: 2
+    occupancy_viewer_show_pose: true
+    occupancy_viewer_window_name: "GO Occupancy"
+    occupancy_viewer_window_width: 1920
+    occupancy_viewer_window_height: 1080
+
+    fisher_visualization_update_interval: 30
+    fisher_display_regularizer: 0.1
+    fisher_eig_regularizer: 1.0e-6

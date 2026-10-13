@@ -1,0 +1,67 @@
+# Build and installation artifacts
+# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+# SPDX-License-Identifier: BSD-3-Clause
+/build*/
+/install*/
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+/Makefile
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Runtime outputs, local datasets and temporary files
+/output/
+/outputs/
+/data/
+/datasets/
+/data_links/
+/tmp/
+/logs/
+*.log
+/core
+/core.*
+*.core
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor and operating-system files
+.history/
+.vscode/
+.idea/
+.cache/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej

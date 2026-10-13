@@ -1,0 +1,45 @@
+GOFusion — license scope
+=======================
+
+GOFusion contains code under multiple licenses. The BSD-3-Clause terms below
+apply to its original code and documentation, except where separate component
+or file terms apply. GOFusion modifications to upstream files follow the
+applicable file terms:
+
+* OKVIS2-X: LICENSES/OKVIS2-X-BSD-3-Clause.txt (BSD-3-Clause).
+
+* Supereight2: BSD-3-Clause for the core, with CC0-1.0 and MIT terms for
+  files bearing those identifiers. See supereight-2-srl/LICENSES/.
+* GSFusion: BSD-3-Clause for the BSD-marked code, with separate
+  Gaussian-Splatting terms for the Gaussian model and rendering derivatives.
+  See supereight-2-srl/LICENSES/ and THIRD_PARTY_NOTICES.md.
+* MonoGS rasterizer: supereight-2-srl/mono_cuda_rasterizer/LICENSE.md;
+  Faster-GS-derived portions also retain their Apache-2.0 terms.
+* Faster-GS rasterizer and its adapters:
+  supereight-2-srl/fastergs_cuda_rasterizer/LICENSE (Apache-2.0), except the
+  NVIDIA helper header, which retains its own BSD notice.
+* Other bundled dependencies: their retained licenses and source notices,
+  indexed in THIRD_PARTY_NOTICES.md.
+
+The combined application is limited to non-commercial research and evaluation
+under the Gaussian-Splatting terms. Other uses require the relevant rights
+holders' permission. These terms do not relicense the individual components.
+Redistributions must retain the applicable licenses and attribution notices;
+DBoW2 additionally requires notification to its original author.
+Linked system libraries have separate terms. See THIRD_PARTY_NOTICES.md for
+the SuiteSparse/Gaussian-Splatting binary redistribution compatibility issue.
+
+GOFusion original code — BSD-3-Clause
+====================================
+
+Copyright (c) 2026 Anonymous GOFusion author. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

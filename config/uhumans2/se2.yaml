@@ -1,0 +1,72 @@
+%YAML:1.2
+# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+# SPDX-License-Identifier: BSD-3-Clause
+
+general:
+  results_directory: ""
+  write_mesh_output: true
+  gs_save_fisher: true
+
+  sensor_measurement_downsampling: 1
+  depth_image_resolution_downsampling: 1
+  depth_queue_size: 4
+  depth_queue_drop_if_full: false
+
+  realtime_pipeline_enabled: false
+  input_target_fps: 60.0
+
+  depth_scaling_factor: 0.001
+
+  submap_kf_threshold: 10
+  submap_overlap_ratio: 0.2
+  submap_min_frames: 20
+  near_plane: 0.4
+  far_plane: 30.0
+
+  use_map_to_map_factors: false
+  use_map_to_live_factors: false
+  n_factors_per_state: 100
+  voxel_grid_resolution: 0.001
+  sensor_error: 0.01
+
+  enable_gs_mapping: true
+  gs_show_preview: true
+  gs_run_global_optimization: true
+  gs_optim_params_path: "optimization_params_uhumans2_gs.json"
+  gs_output_directory: ""
+  gs_keep_recent_frozen_submaps_gpu: 1
+  gs_optimize_cuda_memory: true
+  gs_rendered_rgb_directory: ""
+
+map:
+  dim: [125.6, 125.6, 112.8]
+  res: 0.05
+
+data:
+  surface_boundary: 0
+  min_occupancy: -100
+  max_occupancy: 100
+  log_odd_min: -5.015
+  log_odd_max: 5.015
+  fs_integr_scale: 1
+  const_surface_thickness: false
+  uncertainty_model: quadratic
+  tau_min_factor: 3
+  tau_max_factor: 12
+  k_tau: 0.01
+  sigma_min_factor: 3
+  sigma_max_factor: 12
+  k_sigma: 0.017
+
+sensor:
+  width: 720
+  height: 480
+  fx: 415.69219381653056
+  fy: 415.69219381653056
+  cx: 360.0
+  cy: 240.0
+  scale: 0.001
+  T_BS: [0.0000, 0.0000, 1.0000, 0.0000,
+        -1.0000, 0.0000, 0.0000, 0.0500,
+         0.0000,-1.0000, 0.0000, 0.0000,
+         0.0000, 0.0000, 0.0000, 1.0000]
