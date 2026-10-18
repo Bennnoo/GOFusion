@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2024 Smart Robotics Lab, Technical University of Munich
  * SPDX-FileCopyrightText: 2024 Jiaxin Wei
  * All rights reserved. Some of the code is derived from 3D Gaussian Splatting for Real-Time Radiance Field Rendering software by Inria and MPII.
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef GS_GAUSSIAN_HPP

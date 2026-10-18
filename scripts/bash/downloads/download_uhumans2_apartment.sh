@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+# SPDX-FileCopyrightText: 2026 Boxin Bu
 # SPDX-License-Identifier: BSD-3-Clause
 set -euo pipefail
 export PYTHONDONTWRITEBYTECODE=1

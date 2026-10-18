@@ -8,7 +8,7 @@
  * and ETH Zurich
  *
  * SPDX-License-Identifier: BSD-3-Clause, see LICENESE file for details
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef INCLUDE_OKVIS_LIDARMAPPING_CONFIG_HPP

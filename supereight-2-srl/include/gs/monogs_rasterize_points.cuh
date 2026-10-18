@@ -7,7 +7,7 @@
  * under the terms of the LICENSE.md file.
  *
  * For inquiries contact  george.drettakis@inria.fr
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 // License copy: supereight-2-srl/mono_cuda_rasterizer/LICENSE.md.
 

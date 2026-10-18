@@ -1,4 +1,4 @@
-<!-- SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications) -->
+<!-- SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications) -->
 
 <h1 align="center">GOFusion</h1>
 

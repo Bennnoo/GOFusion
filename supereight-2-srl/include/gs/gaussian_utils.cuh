@@ -5,7 +5,7 @@
  * All rights reserved. Some of the code is derived from 3D Gaussian Splatting for Real-Time Radiance Field Rendering software by Inria and MPII.
  * gaussian() and create_window(): adapted from pytorch-ssim, Copyright Evan Su, 2017 (MIT).
  * See LICENSES/pytorch-ssim-MIT.txt at the repository root.
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef GS_GAUSSIAN_UTIL_HPP

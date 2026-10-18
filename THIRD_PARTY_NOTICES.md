@@ -1,4 +1,4 @@
-<!-- SPDX-FileCopyrightText: 2026 Anonymous GOFusion author -->
+<!-- SPDX-FileCopyrightText: 2026 Boxin Bu -->
 
 # Third-party notices
 

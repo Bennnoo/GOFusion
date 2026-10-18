@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+# SPDX-FileCopyrightText: 2026 Boxin Bu
 # SPDX-License-Identifier: BSD-3-Clause
 """Prepare an extracted uHumans2 sequence as an OKVIS2-X stereo RGB-D mav0 folder."""
 

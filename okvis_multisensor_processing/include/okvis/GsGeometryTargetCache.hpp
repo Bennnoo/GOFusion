@@ -1,7 +1,7 @@
 /**
  * In-memory lossless CPU geometry targets for final GS optimization.
  * SPDX-License-Identifier: BSD-3-Clause
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+ * SPDX-FileCopyrightText: 2026 Boxin Bu
  */
 #pragma once
 

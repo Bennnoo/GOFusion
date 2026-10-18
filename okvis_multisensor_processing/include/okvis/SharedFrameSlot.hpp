@@ -2,7 +2,7 @@
  * OKVIS2-X - reusable cross-platform frame staging storage.
  *
  * SPDX-License-Identifier: BSD-3-Clause, see LICENSE file for details.
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+ * SPDX-FileCopyrightText: 2026 Boxin Bu
  */
 
 #ifndef INCLUDE_OKVIS_SHARED_FRAME_SLOT_HPP_

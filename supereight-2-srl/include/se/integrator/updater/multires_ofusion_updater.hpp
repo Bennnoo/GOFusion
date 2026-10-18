@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2019-2021 Nils Funk
  * SPDX-FileCopyrightText: 2021 Sotiris Papatheodorou
  * SPDX-License-Identifier: BSD-3-Clause
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef SE_MULTIRES_OFUSION_UPDATER_HPP

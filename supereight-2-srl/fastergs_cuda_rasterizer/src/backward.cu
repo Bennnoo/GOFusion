@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Modified for GOFusion; differs from the upstream Faster-GS implementation.
 // See LICENSE in this directory tree.
-// SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+// SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
 
 #include "fastergs/backward.h"
 #include "fastergs/kernels_backward.cuh"

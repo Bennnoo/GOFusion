@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Modified for GOFusion: C++ integration of the Faster-GS rasterizer.
 // License: supereight-2-srl/fastergs_cuda_rasterizer/LICENSE.
-// SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+// SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
 
 
 

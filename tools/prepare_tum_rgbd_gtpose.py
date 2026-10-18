@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+# SPDX-FileCopyrightText: 2026 Boxin Bu
 # SPDX-License-Identifier: BSD-3-Clause
 """Associate TUM RGB-D frames and interpolate camera GT poses at depth timestamps."""
 

@@ -3,7 +3,7 @@
  * Depth or LiDAR, and GNSS
  *
  * SPDX-License-Identifier: BSD-3-Clause, see LICENESE file for details
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+ * SPDX-FileCopyrightText: 2026 Boxin Bu
  */
 
 #ifndef OKVIS_APPS_OKVIS_OCCUPANCY_VIEWER_3D_HPP

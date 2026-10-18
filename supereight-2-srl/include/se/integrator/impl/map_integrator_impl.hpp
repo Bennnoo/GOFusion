@@ -6,7 +6,7 @@
  * SPDX-FileCopyrightText: 2024 Smart Robotics Lab, Technical University of Munich
  * SPDX-FileCopyrightText: 2024 Jiaxin Wei
  * SPDX-License-Identifier: BSD-3-Clause
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef SE_MAP_INTEGRATOR_IMPL_HPP

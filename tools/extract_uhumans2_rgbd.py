@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+# SPDX-FileCopyrightText: 2026 Boxin Bu
 # SPDX-License-Identifier: BSD-3-Clause
 """Extract uHumans2 stereo, RGB-D, noisy IMU and ground-truth odometry from a ROS1 bag."""
 

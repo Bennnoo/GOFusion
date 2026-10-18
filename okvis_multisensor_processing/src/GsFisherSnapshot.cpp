@@ -2,7 +2,7 @@
  * OKVIS2-X - local per-submap Gaussian Fisher export.
  *
  * SPDX-License-Identifier: BSD-3-Clause
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author
+ * SPDX-FileCopyrightText: 2026 Boxin Bu
  */
 
 #include <okvis/GsFisherSnapshot.hpp>

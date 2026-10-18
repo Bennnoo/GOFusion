@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+# SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
 # SPDX-License-Identifier: BSD-3-Clause
 
 cmake_minimum_required(VERSION 3.24...3.30)

@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2024 Smart Robotics Lab, Imperial College London, Technical University of Munich
  * SPDX-FileCopyrightText: 2024 Sotiris Papatheodorou
  * SPDX-License-Identifier: BSD-3-Clause
- * SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+ * SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
  */
 
 #ifndef SE_INTEGRATOR_MEASUREMENT_HPP

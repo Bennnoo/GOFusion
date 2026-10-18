@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2021-2023 Smart Robotics Lab, Imperial College London, Technical University of Munich
 # SPDX-FileCopyrightText: 2024 Smart Robotics Lab, Technical University of Munich
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2026 Anonymous GOFusion author (GOFusion modifications)
+# SPDX-FileCopyrightText: 2026 Boxin Bu (GOFusion modifications)
 
 cmake_minimum_required(VERSION 3.10...3.16)
 project(Supereight2 VERSION 0.27.1 LANGUAGES CXX)
